@@ -3,6 +3,7 @@ body {
   margin: 0;
   background: #F4FFF7;
   width: 100%;
+  text-align: center;
 }
 
 header {
@@ -30,8 +31,9 @@ a{
 }
 
 .hero {
-  text-align: center;
-  padding: 20px;
+
+  justify-content: center;
+  padding: 10px;
   background: #41a648;
   color: white;
 }
@@ -40,36 +42,49 @@ button {
   padding: 10px 15px;
   background: #A3E635;
   border: none;
+  border-radius: 7px;
   cursor: pointer;
+  margin-bottom: 10px;
 }
 
 .container {
+  
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  
 }
 
 .product {
+  width: 200px;
   background: white;
-  padding: 15px;
-  margin: 15px;
+  padding: 10px;
+  justify-content: center;
   border-radius: 10px;
   width: 200px;
   text-align: center;
+  margin-bottom: 10px;
+  margin-top: 15px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
 .tiffin{
-  background: white;
-  padding: 15px;
-  margin: 15px;
+  display: flex;
+  justify-content: center;
+  background: #F4FFF7;
   border-radius: 10px;
-  width: 200px;
+  width: 100%;
   text-align: center;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
-  
-  
+  gap: 20px;
 }
+.box{
+  width: 200px;
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  border: none;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
 
 input, textarea {
   width: 250px;
